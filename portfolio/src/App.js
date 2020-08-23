@@ -7,6 +7,7 @@ import {
 } from "react-router-dom";
 import Header from './components/header';
 import Home from './components/home';
+import Contact from './pages/contact';
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
         <Switch>
           <Route path = "/"> <Home> </Home> </Route>    
           <Route path = "/portofolioPage"></Route>
-          <Route path = "/contact"></Route>
+          <Route path = "/contact"><Contact></Contact></Route>
         </Switch>
       </Router>
     </div>

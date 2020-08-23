@@ -1,13 +1,15 @@
 import React from 'react';
-import Project from './project';
+import Carousel from './Carousel';
 
 export default function home() {
     return (
         <div>
-            <Project>
-
-            </Project>
+                  
+           
+            <Carousel />
         </div>
+    
+        
     )
 }
 
